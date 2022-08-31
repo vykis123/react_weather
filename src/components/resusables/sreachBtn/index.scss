@@ -1,0 +1,19 @@
+button {
+  padding: 1rem;
+  border: none;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #fbec5d;
+  font-family: "DynaPuff", cursive, sans-serif;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 0.6rem #fbeb5d4d;
+  transition: 0.1s ease-in;
+
+  &:hover,
+  &:active,
+  &:focus {
+    letter-spacing: 1px;
+    outline: none;
+  }
+}

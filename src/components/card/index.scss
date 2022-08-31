@@ -1,0 +1,19 @@
+.card {
+  min-width: 60%;
+  min-height: 52rem;
+  box-shadow: 0.8rem 0.6rem 0.6rem #fbeb5d9d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  display: flex;
+
+  @media screen and (max-width: 1050px) {
+    min-width: 95%;
+  }
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  }
+}

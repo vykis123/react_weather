@@ -1,0 +1,20 @@
+input {
+  min-width: 100%;
+  padding: 1rem;
+  background: transparent;
+  border: 1px solid #fbeb5d9d;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  color: #fbec5d;
+  font-family: "DynaPuff", cursive, sans-serif;
+  transition: border 0.3s ease-in, box-shadow 0.3s ease-in;
+  caret-color: #fbeb5dde;
+  box-shadow: 0.2rem 0.2rem 0.6rem #fbeb5d4d;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 1px solid #fbeb5dde;
+    box-shadow: 0.4rem 0.4rem 0.6rem #fbeb5d4d;
+  }
+}
